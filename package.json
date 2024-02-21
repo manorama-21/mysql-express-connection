@@ -1,0 +1,24 @@
+{
+  "name": "mysql",
+  "version": "1.0.0",
+  "description": "mysql connection & crud",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start:dev": "nodemon app.js",
+    "start:prod": "node --watch app.js"
+  },
+  "keywords": [
+    "mysql",
+    "node",
+    "express",
+    "dev"
+  ],
+  "author": "manu",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "nodemon": "^3.0.3"
+  }
+}
